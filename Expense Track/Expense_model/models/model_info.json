@@ -1,0 +1,23 @@
+{
+  "accuracy": 0.9348659003831418,
+  "model_type": "Production Ensemble (Logistic + RF + GradientBoost + SVM)",
+  "categories": [
+    "Apparel",
+    "Beauty",
+    "Bills & Utilities",
+    "Education",
+    "Food & Dining",
+    "Gift",
+    "Health",
+    "Income",
+    "Investment",
+    "Miscellaneous",
+    "Money transfer",
+    "Personal & Family",
+    "Transportation"
+  ],
+  "training_samples": 1042,
+  "test_samples": 261,
+  "features_count": 2036,
+  "training_date": "2026-02-19T22:18:07.433552"
+}
