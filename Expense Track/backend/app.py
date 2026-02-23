@@ -1841,7 +1841,7 @@ def fix_expense_dates():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    print("🚀 Starting SmartSpend ML Backend...")
+    
     print("📊 Backend URL: http://localhost:5000")
     print("🤖 ML Model: " + ("✅ Loaded" if bill_extractor.expense_model else "❌ Not Found"))
     app.run(debug=True, host='0.0.0.0', port=5000)
